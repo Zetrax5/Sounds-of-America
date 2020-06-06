@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="89bf8f61-96f8-4138-8659-a9b10d08e477" version="1">
+  <Properties>
+    <Name>Sounds of America Peru</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod adds the National Anthem of Peru as a great musical work.</Teaser>
+    <Description>This mod adds the National Anthem of Peru as a great musical work.
+
+Soon I will add more songs to the list.</Description>
+    <Authors>Zetrax</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Game minversion="1.0.3.124" maxversion="2.0.0.0" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="8561D07FB6D087E32D78EFB7DD1339B1" import="1">Music/HimnoPeru.mp3</File>
+    <File md5="734F80A387E4E0A08C388BDA2263FB2C" import="1">XML/Audio.xml</File>
+    <File md5="3FB2B16B19A3CED253A01AA6AA2F4F2F" import="1">XML/Lenguage.xml</File>
+    <File md5="6AB4B886BEEB3E97345E4D9AAC2F4898" import="1">XML/Musicians.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Audio.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Musicians.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lenguage.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

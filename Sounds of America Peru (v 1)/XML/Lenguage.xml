@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/5/2020 1:35:26 AM -->
+
+<GameData>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_GREAT_PERSON_ALZEDO_REBAGLIATI</Tag>
+			<Text>Alzedo and Rebagliati</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_GREAT_WORK_ANTHEM_PERU</Tag>
+			<Text>National anthem of Peru</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_ES_ES>
+		<Row>
+			<Tag>TXT_KEY_GREAT_PERSON_ALZEDO_REBAGLIATI</Tag>
+			<Text>Alzedo y Rebagliati</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_GREAT_WORK_ANTHEM_PERU</Tag>
+			<Text>Himno Nacional del Perú</Text>
+		</Row>
+	</Language_ES_ES>
+</GameData>

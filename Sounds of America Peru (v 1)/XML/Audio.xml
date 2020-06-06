@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/5/2020 1:26:34 AM -->
+
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_GREAT_MUSICIAN_ALZEDO_REBAGLIATI</SoundID>
+			<FileName>HimnoPeru</FileName>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_GREAT_MUSICIAN_ALZEDO_REBAGLIATI</ScriptID>
+			<SoundID>SND_GREAT_MUSICIAN_ALZEDO_REBAGLIATI</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

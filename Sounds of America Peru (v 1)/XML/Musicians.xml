@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/5/2020 1:27:24 AM -->
+
+<GameData>
+		<Unit_UniqueNames>
+			<Row>
+				<UnitType>UNIT_MUSICIAN</UnitType>
+				<UniqueName>TXT_KEY_GREAT_PERSON_ALZEDO_REBAGLIATI</UniqueName>
+				<GreatWorkType>GREAT_WORK_ANTHEM_PERU</GreatWorkType>
+			</Row>
+		</Unit_UniqueNames>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_ANTHEM_PERU</Type>
+			<GreatWorkClassType>GREAT_WORK_MUSIC</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_ANTHEM_PERU</Description>
+			<Audio>AS2D_GREAT_MUSICIAN_ALZEDO_REBAGLIATI</Audio>
+			<Image>GreatMusician_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+</GameData>
